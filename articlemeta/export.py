@@ -206,6 +206,7 @@ class Export(object):
             export_crossref.XMLArticlePubDatePipe(),
             export_crossref.XMLPagesPipe(),
             export_crossref.XMLPIDPipe(),
+            export_crossref.XMLElocationPipe(),
             export_crossref.XMLDOIDataPipe(),
             export_crossref.XMLDOIPipe(),
             export_crossref.XMLResourcePipe(),
